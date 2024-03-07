@@ -1,6 +1,8 @@
 # terraform-projects-structure
 Materials for terraform best project structure presentation
 
+Full webinar available on Youtube: [Svitla Smart Talk: Oleksandr Sapozhnikov - How to choose the best Terraform project structure](https://www.youtube.com/watch?v=_3VA_RyrRQE)
+
 Simple code example:
 ```bash
 ENV=dev
