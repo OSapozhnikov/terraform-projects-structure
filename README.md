@@ -8,7 +8,7 @@ Simple code example:
 ENV=dev
 REGION=eu-central-1
 terraform init -backend-config="./enviroments/${ENV}/${REGION}/backend.tfvars"
-terraform plan -var-file="./enviroments/${ENV}/${REGION}/backend.tfvars" -out "terraform.tfplan" 
+terraform plan -var-file="./enviroments/${ENV}/${REGION}/terraform.tfvars" -out "terraform.tfplan" 
 terraform show --json "terraform.tfplan" | convert_report > tfplan.json 
 ```
 
