@@ -6,7 +6,7 @@ variable "project_name" {
   type        = string
 
   validation {
-    condition     = length(var.project) >= 3 && var.project != null && var.project != ""
+    condition     = length(var.project_name) >= 3 && var.project_name != null && var.project_name != ""
     error_message = "Error: Incorrect project name."
   }
 }
